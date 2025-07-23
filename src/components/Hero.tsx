@@ -125,36 +125,59 @@ const Hero = () => {
             >
               The humanoid companion that learns and adapts alongside you.
             </p>
-
-            <div
-              className="flex animate-fade-in flex-col gap-4 opacity-0 sm:flex-row"
-              style={{ animationDelay: "0.7s" }}
-            >
-              <a
-                href="#"
-                className="group relative flex w-full items-center justify-center overflow-visible text-center sm:w-auto"
-                style={{
-                  backgroundColor: "#FE5C02",
-                  borderRadius: "1440px",
-                  boxSizing: "border-box",
-                  color: "#FFFFFF",
-                  cursor: "pointer",
-                  fontSize: "14px",
-                  lineHeight: "20px",
-                  padding: "16px 24px",
-                  border: "1px solid white",
-                }}
-                onClick={(e) => {
-                  e.preventDefault();
-                  // Optional: Add toast notification logic here
-                }}
+            <div className="flex flex-col items-start gap-4 lg:flex-row lg:gap-10">
+              <div
+                className="flex animate-fade-in flex-col gap-4 opacity-0 sm:flex-row"
+                style={{ animationDelay: "0.7s" }}
               >
-                {/* Button content */}
-                Buy $ROBOT
-                <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-                {/* Enhanced Coming Soon tooltip */}
-                <span className="CommingSoonUI">Coming Soon!</span>
-              </a>
+                <a
+                  href="#"
+                  className="group relative flex w-full items-center justify-center overflow-visible text-center sm:w-auto"
+                  style={{
+                    backgroundColor: "#FE5C02",
+                    borderRadius: "1440px",
+                    boxSizing: "border-box",
+                    color: "#FFFFFF",
+                    cursor: "pointer",
+                    fontSize: "16px",
+                    lineHeight: "20px",
+                    padding: "16px 24px",
+                    border: "1px solid white",
+                    fontWeight: "medium",
+                  }}
+                >
+                  {/* Button content */}
+                  Buy $ROBOT
+                  <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                  {/* Enhanced Coming Soon tooltip */}
+                  <span className="CommingSoonUI">Coming Soon!</span>
+                </a>
+              </div>
+              <div
+                className="flex animate-fade-in flex-col gap-4 opacity-0 sm:flex-row"
+                style={{ animationDelay: "0.7s" }}
+              >
+                <a
+                  target="_blank"
+                  href="https://chat.pulserobots.com"
+                  className="group relative flex w-full items-center justify-center overflow-visible border border-[#fd5c02] text-center text-[#fd5c02] sm:w-auto lg:border-white lg:text-white"
+                  style={{
+                    borderRadius: "1440px",
+                    boxSizing: "border-box",
+
+                    cursor: "pointer",
+                    fontSize: "16px",
+                    lineHeight: "20px",
+                    padding: "16px 24px",
+
+                    fontWeight: "medium",
+                  }}
+                >
+                  {/* Button content */}
+                  Chat with Atlas
+                  <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                </a>
+              </div>
             </div>
           </div>
 

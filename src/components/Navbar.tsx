@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { cn } from "@/lib/utils";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -50,7 +51,7 @@ const Navbar = () => {
         </a>
 
         {/* Desktop Navigation */}
-        <nav className="hidden space-x-8 md:flex">
+        <nav className="hidden space-x-8 lg:flex">
           <a
             href="#"
             className="nav-link"
@@ -63,6 +64,14 @@ const Navbar = () => {
           </a>
           <a href="#tokenomics" className="nav-link">
             $ROBOT
+          </a>
+
+          <a
+            target="_blank"
+            href="https://chat.pulserobots.com"
+            className="nav-link"
+          >
+            Chat with Atlas
           </a>
           <a
             href="/whitepaper.pdf"
@@ -82,7 +91,7 @@ const Navbar = () => {
 
         {/* Mobile Menu Button */}
         <button
-          className="relative z-50 p-3 text-gray-700 focus:outline-none md:hidden"
+          className="relative z-50 p-3 text-gray-700 focus:outline-none lg:hidden"
           onClick={toggleMenu}
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
         >
@@ -113,16 +122,16 @@ const Navbar = () => {
       {/* Mobile Navigation Overlay */}
       <div
         className={cn(
-          "fixed inset-0 z-40 flex h-screen flex-col bg-white px-6 pt-24 transition-all duration-300 ease-in-out md:hidden",
+          "fixed inset-0 z-40 flex h-screen flex-col bg-white px-6 pt-24 transition-all duration-300 ease-in-out lg:hidden",
           isMenuOpen
             ? "translate-x-0 opacity-100"
-            : "pointer-events-none translate-x-full opacity-0",
+            : "translate-x-full opacity-0",
         )}
       >
-        <nav className="mt-8 flex flex-col items-center space-y-8">
+        <nav className="mt-8 flex flex-col items-center space-y-8 *:w-full *:rounded-lg *:px-6 *:py-3 *:text-center *:text-2xl *:font-bold">
           <a
             href="#"
-            className="w-full rounded-lg px-6 py-3 text-center text-xl font-medium hover:bg-gray-100"
+            className="hover:bg-[rgb(255,237,213)]"
             onClick={(e) => {
               e.preventDefault();
               scrollToTop();
@@ -134,7 +143,7 @@ const Navbar = () => {
           </a>
           <a
             href="#tokenomics"
-            className="w-full rounded-lg px-6 py-3 text-center text-xl font-medium hover:bg-gray-100"
+            className="hover:bg-[rgb(255,237,213)]"
             onClick={() => {
               setIsMenuOpen(false);
               document.body.style.overflow = "";
@@ -143,10 +152,17 @@ const Navbar = () => {
             $ROBOT
           </a>
           <a
+            target="_blank"
+            href="https://chat.pulserobots.com"
+            className="hover:bg-[rgb(255,237,213)]"
+          >
+            Chat with Atlas
+          </a>
+          <a
             href="/whitepaper.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full rounded-lg px-6 py-3 text-center text-xl font-medium hover:bg-gray-100"
+            className="hover:bg-[rgb(255,237,213)]"
             onClick={() => {
               setIsMenuOpen(false);
               document.body.style.overflow = "";
@@ -156,7 +172,7 @@ const Navbar = () => {
           </a>
           <a
             href="#details"
-            className="w-full rounded-lg px-6 py-3 text-center text-xl font-medium hover:bg-gray-100"
+            className="hover:bg-[rgb(255,237,213)]"
             onClick={() => {
               setIsMenuOpen(false);
               document.body.style.overflow = "";
@@ -166,7 +182,7 @@ const Navbar = () => {
           </a>
           <a
             href="#features"
-            className="w-full rounded-lg px-6 py-3 text-center text-xl font-medium hover:bg-gray-100"
+            className="hover:bg-[rgb(255,237,213)]"
             onClick={() => {
               setIsMenuOpen(false);
               document.body.style.overflow = "";
