@@ -89,32 +89,38 @@ const SpecsSection = () => {
                   </div>
                 </div>
 
-                <div className="space-y-4 text-[13px] sm:text-lg">
+                <div className="flex flex-col items-center justify-center space-y-4 text-[13px] sm:text-lg">
                   {/* Button 1 - Pinksale */}
-                  <div className="group relative">
-                    <button className="flex w-full items-center justify-center gap-2 rounded-lg bg-pink-600 px-4 py-4 font-bold text-white transition-colors hover:bg-pink-700">
-                      <span>Buy from</span>
-                      <span className="text-pink-300">◆</span>
-                      <span>Pinksale</span>
-                    </button>
-                    <span className="CommingSoonUI">Coming Soon!</span>
-                  </div>
+
+                  <a
+                    target="_blank"
+                    href="https://www.pinksale.finance/solana/launchpad/A41kZ1kCi5sodJLWKkwYjz3asdPkQtqk9RhSVPcH6JGx"
+                    className="flex w-full items-center justify-center gap-2 rounded-lg bg-pink-600 px-4 py-4 font-bold text-white transition-colors hover:bg-pink-700"
+                  >
+                    <span>Buy from</span>
+                    <span className="text-pink-300">◆</span>
+                    <span>Pinksale</span>
+                  </a>
 
                   {/* Button 2 - Whitepaper */}
-                  <div className="group relative">
-                    <button className="w-full rounded-lg border border-white/30 bg-white/20 px-4 py-4 font-medium text-white backdrop-blur-sm transition-colors hover:bg-white/30">
-                      Read Whitepaper For More
-                    </button>
-                    <span className="CommingSoonUI">Coming Soon!</span>
-                  </div>
+
+                  <a
+                    target="_blank"
+                    href="/whitepaper.pdf"
+                    className="w-full rounded-lg border border-white/30 bg-white/20 px-4 py-4 text-center font-medium text-white backdrop-blur-sm transition-colors hover:bg-white/30"
+                  >
+                    Read Whitepaper For More
+                  </a>
 
                   {/* Button 3 - Audit Report */}
-                  <div className="group relative">
-                    <button className="w-full rounded-lg border border-white/30 bg-white/20 px-4 py-4 font-medium text-white backdrop-blur-sm transition-colors hover:bg-white/30">
-                      Read Audit Report By Coinsult
-                    </button>
-                    <span className="CommingSoonUI">Coming Soon!</span>
-                  </div>
+
+                  <a
+                    target="_blank"
+                    href="https://app.coinsult.net/sol/FtbZ8Ju1sWoxV6yKzcCdgMC5qd3JrKcHeWXBPWLMZU3F"
+                    className="w-full rounded-lg border border-white/30 bg-white/20 px-4 py-4 text-center font-medium text-white backdrop-blur-sm transition-colors hover:bg-white/30"
+                  >
+                    Read Audit Report By Coinsult
+                  </a>
                 </div>
               </div>
             </div>

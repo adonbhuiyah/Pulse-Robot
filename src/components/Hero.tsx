@@ -131,7 +131,8 @@ const Hero = () => {
                 style={{ animationDelay: "0.7s" }}
               >
                 <a
-                  href="#"
+                  href="https://pinksale.finance/solana/launchpad/A41kZ1kCi5sodJLWKkwYjz3asdPkQtqk9RhSVPcH6JGx"
+                  target="_blank"
                   className="group relative flex w-full items-center justify-center overflow-visible text-center sm:w-auto"
                   style={{
                     backgroundColor: "#FE5C02",
@@ -149,13 +150,13 @@ const Hero = () => {
                   {/* Button content */}
                   Buy $ROBOT
                   <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-                  {/* Enhanced Coming Soon tooltip */}
-                  <span className="CommingSoonUI">Coming Soon!</span>
                 </a>
               </div>
               <div
                 className="flex animate-fade-in flex-col gap-4 opacity-0 sm:flex-row"
-                style={{ animationDelay: "0.7s" }}
+                style={{
+                  animationDelay: "0.7s",
+                }}
               >
                 <a
                   target="_blank"
