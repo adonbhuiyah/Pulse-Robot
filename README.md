@@ -1,69 +1,51 @@
-# Welcome to your Lovable project
+# Pulse Robots – Solana AI Robotics Platform
 
-## Project info
+🌐 Visit the live project: [https://pulse-robot.adonr.dev](https://pulse-robot.adonr.dev)
 
-**URL**: https://lovable.dev/projects/35d72d2e-6e25-40e5-9b0c-c0d1a7c1b727
+---
 
-## How can I edit this code?
+## Project Overview
 
-There are several ways of editing your application.
+Pulse Robots is a **Solana-based AI Robotics platform** featuring **Atlas**, a humanoid robot with adaptive learning and natural language interaction.  
+The platform introduces the **$ROBOT token**, showcases AI-driven features, and provides interactive experiences such as live chat with Atlas.  
 
-**Use Lovable**
+This project focuses on delivering a **modern, engaging, and performant front-end** for web users while highlighting real-world use cases of AI robotics powered by blockchain.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/35d72d2e-6e25-40e5-9b0c-c0d1a7c1b727) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## Key Features
 
-**Use your preferred IDE**
+- ✅ **Responsive Design** – Seamless experience across devices with Tailwind CSS.  
+- ✅ **Smooth Animations** – Engaging transitions and interactive UI elements.  
+- ✅ **$ROBOT Tokenomics** – Transparent details about token distribution and utility.  
+- ✅ **AI Features Section** – Explains adaptive learning, natural language processing, and robotics integration.  
+- ✅ **Live Chat with Atlas** – Interactive chatbot powered by AI.  
+- ✅ **Crypto Wallet Actions** – Integrated wallet features for $ROBOT token interactions.  
+- ✅ **Optimized Performance** – Fast load times, SEO-friendly structure, and SSG with Next.js.  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## Usage
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+1. Visit the platform:  [https://pulse-robot.adonr.dev](https://pulse-robot.adonr.dev)
+2. Explore AI features and learn about Atlas, the humanoid robot.  
+3. Check **$ROBOT tokenomics** and community details.  
+4. Try the **live chat** for interactive conversations.  
+5. Connect your Solana wallet to interact with the token.  
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🤝 Let's Connect!
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+**Website:** [adonr.dev](https://adonr.dev)  
+**Email:** [contact@adonr.dev](mailto:contact@adonr.dev)  
+**GitHub:** [View My GitHub Profile](https://github.com/AdonBhuiyah)
 
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/35d72d2e-6e25-40e5-9b0c-c0d1a7c1b727) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+[![X (formerly Twitter)](https://img.shields.io/badge/-X-black?style=flat-square&logo=x&logoColor=white)](https://x.com/AdonBhuiyah)
+[![Telegram](https://img.shields.io/badge/-Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/AdonBhuiyah)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/AdonBhuiyah)
+[![Instagram](https://img.shields.io/badge/-Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/AdonBhuiyah)
+[![Facebook](https://img.shields.io/badge/-Facebook-E4405F?style=flat-square&logo=facebook&logoColor=white)](https://facebook.com/AdonBhuiyah1)
+[![Pinterest](https://img.shields.io/badge/-Pinterest-BD081C?style=flat-square&logo=pinterest&logoColor=white)](https://pinterest.com/AdonBhuiyah)    
+[![Threads](https://img.shields.io/badge/-Threads-000000?style=flat-square&logo=threads&logoColor=white)](https://threads.net/AdonBhuiyah)
